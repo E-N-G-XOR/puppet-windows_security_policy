@@ -8,13 +8,15 @@ This is a Puppet module to handle Window's security policies, previously done by
 The UserRights module will be installed by default in 'C:\Program Files\WindowsPowerShell\Modules\ under 'UserRights'
 
 ## Example usage
-
+```
 $windows_security_policy::grant("SeNetworkLogon", "domain\luksi1")
 $windows_security_policy::revoke("SeNetworkLogon", "domain\luksi1")
+```
 
 To change the default values:
-
+```
 $windows_security_policy::params::powershell_module_path = 'C:\foo\modules'
+```
 
 ## Testing
 
