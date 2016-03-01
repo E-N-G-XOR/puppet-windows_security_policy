@@ -1,0 +1,22 @@
+{
+  "name": "luksi1/windows_security_policy",
+  "version": "0.2.0",
+  "author": "luksi1",
+  "summary": "Windows Security Policy",
+  "license": "Apache-2.0",
+  "source": "https://github.com/luksi1/windows_security_policy.git",
+  "project_page": "https://github.com/luksi1/windows_security_policy.git",
+  "issues_url": "https://github.com/luksi1/windows_security_policy.git",
+  "dependencies": [
+    {"name": "puppetlabs-stdlib","version_requirement": ">= 1.0.0"},
+    {"name": "puppetlabs-powershell", "version_requirement": ">= 1.0.3"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Windows",
+      "operatingsystemrelease": [
+        "2012 R2"
+      ]
+    }
+  ]
+}
