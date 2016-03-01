@@ -5,7 +5,7 @@ A Puppet module to handle Windows security policy (ntrights).
 This is a Puppet module to handle Window's security policies, previously done by ntrights.exe. This module is based on the work of <a href="https://userrights.codeplex.com/team/view">raandree</a>. His "UserRights" Powershell code can be found <a href="">here</a>
 
 ## Defaults
-The UserRights module will be installed by default in 'C:\Program Files\WindowsPowerShell\Modules\ under 'UserRights'
+The UserRights module will be installed by default in 'C:\Program Files\WindowsPowerShell\Modules\' under 'UserRights'
 
 ## Example usage
 ```
