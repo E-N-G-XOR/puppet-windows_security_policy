@@ -1,4 +1,4 @@
-class windows_security_policy::grant ($privilege, $account) {
+define windows_security_policy::grant ($privilege, $account) {
   
   require windows_security_policy::install
   
